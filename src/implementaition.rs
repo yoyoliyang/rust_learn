@@ -8,6 +8,7 @@ struct Person {
     age: u8,
 }
 
+// 对结构体Cav的默认特性
 impl Cav {
     // implementation 类似python中的类
     fn print_wh(&self) {

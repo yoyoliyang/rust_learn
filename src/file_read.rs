@@ -38,6 +38,7 @@ fn main() {
 
 fn read_file_content(name: &String) -> Result<String, io::Error> {
     let mut s = String::new();
+    // ? 问号是传播错误的简写
     let file2 = File::open(name)?.read_to_string(&mut s);
     Ok(s)
 }

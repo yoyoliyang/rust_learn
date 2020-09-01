@@ -30,4 +30,7 @@ fn main() {
     for i in str1.bytes() {
         println!("{}", i);
     }
+
+    //整型实现了Display的特性
+    println!("{}", 10.to_string());
 }

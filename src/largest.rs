@@ -1,8 +1,7 @@
 fn main() {
     let number_list = vec![34, 50, 25, 100, 65];
-    let sorted = hashMap::new();
 
-    // println!("the largest number is :{}", largest(&number_list));
+    println!("the largest number is :{}", largest(&number_list));
 }
 
 fn largest(list: &[i32]) -> i32 {

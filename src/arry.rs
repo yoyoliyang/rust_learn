@@ -9,6 +9,8 @@ struct IPv4 {
 fn main() {
     // array i32型,共5位
     let numbers: [i32; 5] = [1, 2, 3, 4, 5]; //注意定义arry类型中的分号
+    let numbers: [i32] = [1, 2, 3, 4, 5];
+    // 函数中引用: list: &[i32] -> i32
     let numbers1 = [2; 10]; // 定义10个包含2的array
 
     // println!("number {}", numbers[1]);
